@@ -11,3 +11,158 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.users {
+  margin: 0 auto;
+}
+
+.user {
+  padding: 10px;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.page {
+  width: 40px;
+  height: 40px;
+  border: solid grey;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  font-weight: bold;
+}
+
+.spinner {
+  position: absolute;
+  width: 200px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.status-first {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.single-status {
+  width: 70px;
+  height: 40px;
+  border: solid lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.statusArr {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.countWord {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.single-count {
+  width: 70px;
+  height: 40px;
+  border: solid lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.countArr {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.userCount {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.userCount-single {
+  width: 70px;
+  height: 40px;
+  border: solid lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.userCount-arr {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.userCount-arr span {
+  width: 70px;
+  height: 40px;
+  border: solid lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.checked {
+  border-color: black;
+}
